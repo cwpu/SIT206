@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Stu-SIT206
 //
-//  Created by cpwu on 2018/5/12.
+//  Created by Chin Wai Pun on 2018/5/12.
 //  Copyright © 2018年 cpwu. All rights reserved.
 //
 

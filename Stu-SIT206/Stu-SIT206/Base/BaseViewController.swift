@@ -2,7 +2,7 @@
 //  BaseViewController.swift
 //  StudentSIT206
 //
-//  Created by cpwu on 2018/5/12.
+//  Created by Chin Wai Pun on 2018/5/12.
 //  Copyright © 2018年 cpwu. All rights reserved.
 //
 
@@ -12,7 +12,7 @@ class BaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        view.backgroundColor = UIColor.white
         // Do any additional setup after loading the view.
     }
 

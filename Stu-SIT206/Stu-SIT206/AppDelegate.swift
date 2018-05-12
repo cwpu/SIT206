@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Stu-SIT206
 //
-//  Created by cpwu on 2018/5/12.
+//  Created by Chin Wai Pun on 2018/5/12.
 //  Copyright © 2018年 cpwu. All rights reserved.
 //
 
@@ -16,6 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        //Set Root ViewController
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window?.rootViewController = BaseNavViewController(rootViewController: HomeViewController())
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

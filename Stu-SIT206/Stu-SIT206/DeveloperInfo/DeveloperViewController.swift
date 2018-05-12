@@ -1,6 +1,6 @@
 //
-//  BaseNavViewController.swift
-//  StudentSIT206
+//  DeveloperViewController.swift
+//  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/12.
 //  Copyright © 2018年 cpwu. All rights reserved.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class BaseNavViewController: UINavigationController {
+class DeveloperViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        title = "Info"
         // Do any additional setup after loading the view.
     }
 

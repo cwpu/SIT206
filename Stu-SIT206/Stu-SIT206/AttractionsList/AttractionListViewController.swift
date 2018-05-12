@@ -1,6 +1,6 @@
 //
-//  BaseNavViewController.swift
-//  StudentSIT206
+//  AttractionListViewController.swift
+//  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/12.
 //  Copyright © 2018年 cpwu. All rights reserved.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseNavViewController: UINavigationController {
+class AttractionListViewController: BaseTableViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
