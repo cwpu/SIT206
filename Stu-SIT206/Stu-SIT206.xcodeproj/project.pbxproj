@@ -25,6 +25,7 @@
 		9AFA088620A6F9D200CFDF46 /* AttractionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA088520A6F9D200CFDF46 /* AttractionListViewController.swift */; };
 		9AFA088820A6FA9000CFDF46 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AFA088720A6FA9000CFDF46 /* MapKit.framework */; };
 		9AFA088B20A6FAE700CFDF46 /* AttractionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA088A20A6FAE700CFDF46 /* AttractionMapViewController.swift */; };
+		9AFA088E20A708D200CFDF46 /* AttractionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA088D20A708D200CFDF46 /* AttractionModel.swift */; };
 		FB25197C1013B608EEC3DA31 /* Pods_Stu_SIT206.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CECAA873DAD75A13C9DF5FF7 /* Pods_Stu_SIT206.framework */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +52,7 @@
 		9AFA088520A6F9D200CFDF46 /* AttractionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionListViewController.swift; sourceTree = "<group>"; };
 		9AFA088720A6FA9000CFDF46 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		9AFA088A20A6FAE700CFDF46 /* AttractionMapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionMapViewController.swift; sourceTree = "<group>"; };
+		9AFA088D20A708D200CFDF46 /* AttractionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttractionModel.swift; sourceTree = "<group>"; };
 		CECAA873DAD75A13C9DF5FF7 /* Pods_Stu_SIT206.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stu_SIT206.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -97,6 +99,7 @@
 		9AFA085020A6DB8E00CFDF46 /* Stu-SIT206 */ = {
 			isa = PBXGroup;
 			children = (
+				9AFA088C20A708AA00CFDF46 /* Model */,
 				9AFA088920A6FACD00CFDF46 /* AttractionMapView */,
 				9AFA088420A6F9B500CFDF46 /* AttractionsList */,
 				9AFA087F20A6F4C900CFDF46 /* EmergencyContacts */,
@@ -189,6 +192,14 @@
 				9AFA088A20A6FAE700CFDF46 /* AttractionMapViewController.swift */,
 			);
 			path = AttractionMapView;
+			sourceTree = "<group>";
+		};
+		9AFA088C20A708AA00CFDF46 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AFA088D20A708D200CFDF46 /* AttractionModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		E6F26A0A546BAFDE319CC9A0 /* Pods */ = {
@@ -303,11 +314,15 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-Stu-SIT206/Pods-Stu-SIT206-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/VGPlayer/VGPlayer.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/VGPlayer.framework",
 			);
@@ -340,6 +355,7 @@
 			files = (
 				9AFA086920A6DBC000CFDF46 /* BaseNavViewController.swift in Sources */,
 				9AFA086720A6DBC000CFDF46 /* BaseTableViewController.swift in Sources */,
+				9AFA088E20A708D200CFDF46 /* AttractionModel.swift in Sources */,
 				9AFA086820A6DBC000CFDF46 /* BaseViewController.swift in Sources */,
 				9AFA085420A6DB8E00CFDF46 /* ViewController.swift in Sources */,
 				9AFA088B20A6FAE700CFDF46 /* AttractionMapViewController.swift in Sources */,

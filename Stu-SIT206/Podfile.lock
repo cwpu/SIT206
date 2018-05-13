@@ -1,0 +1,24 @@
+PODS:
+  - Realm (3.3.0):
+    - Realm/Headers (= 3.3.0)
+  - Realm/Headers (3.3.0)
+  - RealmSwift (3.3.0):
+    - Realm (= 3.3.0)
+  - SnapKit (4.0.0)
+  - VGPlayer (0.2.0):
+    - SnapKit (~> 4.0.0)
+
+DEPENDENCIES:
+  - RealmSwift
+  - SnapKit (~> 4.0.0)
+  - VGPlayer (~> 0.2.0)
+
+SPEC CHECKSUMS:
+  Realm: 7d74ad6c5020432f58fe5e1df90bb6d97b2c7fef
+  RealmSwift: b2fa31a09c22e246026766557405505eeaad2b01
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  VGPlayer: a1787135559aa3b9201ebdc733ee283315492289
+
+PODFILE CHECKSUM: e42777705bb943f77f97cc81294e532f7648bd52
+
+COCOAPODS: 1.4.0
