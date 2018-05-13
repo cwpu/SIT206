@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0FB52A20A80CDC00F108C7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB52920A80CDC00F108C7 /* MapViewController.swift */; };
+		9A0FB52C20A8746F00F108C7 /* MapDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0FB52B20A8746F00F108C7 /* MapDetailViewController.swift */; };
+		9A31BEDA20A87924009B85DD /* DayPlansViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A31BED920A87924009B85DD /* DayPlansViewController.swift */; };
+		9A31BEDD20A8795B009B85DD /* PlansTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A31BEDB20A8795B009B85DD /* PlansTableViewCell.swift */; };
+		9A31BEDE20A8795B009B85DD /* PlansTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A31BEDC20A8795B009B85DD /* PlansTableViewCell.xib */; };
 		9AFA085220A6DB8E00CFDF46 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA085120A6DB8E00CFDF46 /* AppDelegate.swift */; };
 		9AFA085420A6DB8E00CFDF46 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AFA085320A6DB8E00CFDF46 /* ViewController.swift */; };
 		9AFA085720A6DB8E00CFDF46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9AFA085520A6DB8E00CFDF46 /* Main.storyboard */; };
@@ -32,6 +37,11 @@
 /* Begin PBXFileReference section */
 		39D0934E1F92184941CC010D /* Pods-Stu-SIT206.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stu-SIT206.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Stu-SIT206/Pods-Stu-SIT206.debug.xcconfig"; sourceTree = "<group>"; };
 		884F7DE3B8EDC8B19C1E21AA /* Pods-Stu-SIT206.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stu-SIT206.release.xcconfig"; path = "Pods/Target Support Files/Pods-Stu-SIT206/Pods-Stu-SIT206.release.xcconfig"; sourceTree = "<group>"; };
+		9A0FB52920A80CDC00F108C7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		9A0FB52B20A8746F00F108C7 /* MapDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapDetailViewController.swift; sourceTree = "<group>"; };
+		9A31BED920A87924009B85DD /* DayPlansViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayPlansViewController.swift; sourceTree = "<group>"; };
+		9A31BEDB20A8795B009B85DD /* PlansTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlansTableViewCell.swift; sourceTree = "<group>"; };
+		9A31BEDC20A8795B009B85DD /* PlansTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PlansTableViewCell.xib; sourceTree = "<group>"; };
 		9AFA084E20A6DB8E00CFDF46 /* Stu-SIT206.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Stu-SIT206.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9AFA085120A6DB8E00CFDF46 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9AFA085320A6DB8E00CFDF46 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +88,25 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9A0FB52820A80CC700F108C7 /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				9A0FB52920A80CDC00F108C7 /* MapViewController.swift */,
+				9A0FB52B20A8746F00F108C7 /* MapDetailViewController.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		9A31BED820A878D9009B85DD /* DayPlans */ = {
+			isa = PBXGroup;
+			children = (
+				9A31BED920A87924009B85DD /* DayPlansViewController.swift */,
+				9A31BEDB20A8795B009B85DD /* PlansTableViewCell.swift */,
+				9A31BEDC20A8795B009B85DD /* PlansTableViewCell.xib */,
+			);
+			path = DayPlans;
+			sourceTree = "<group>";
+		};
 		9AFA084520A6DB8E00CFDF46 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +128,8 @@
 		9AFA085020A6DB8E00CFDF46 /* Stu-SIT206 */ = {
 			isa = PBXGroup;
 			children = (
+				9A31BED820A878D9009B85DD /* DayPlans */,
+				9A0FB52820A80CC700F108C7 /* MapView */,
 				9AFA088C20A708AA00CFDF46 /* Model */,
 				9AFA088920A6FACD00CFDF46 /* AttractionMapView */,
 				9AFA088420A6F9B500CFDF46 /* AttractionsList */,
@@ -277,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A31BEDE20A8795B009B85DD /* PlansTableViewCell.xib in Resources */,
 				9AFA088320A6F7A100CFDF46 /* contact.png in Resources */,
 				9AFA087020A6E18900CFDF46 /* logo.png in Resources */,
 				9AFA085C20A6DB9000CFDF46 /* LaunchScreen.storyboard in Resources */,
@@ -357,9 +389,13 @@
 				9AFA086720A6DBC000CFDF46 /* BaseTableViewController.swift in Sources */,
 				9AFA088E20A708D200CFDF46 /* AttractionModel.swift in Sources */,
 				9AFA086820A6DBC000CFDF46 /* BaseViewController.swift in Sources */,
+				9A31BEDD20A8795B009B85DD /* PlansTableViewCell.swift in Sources */,
+				9A0FB52C20A8746F00F108C7 /* MapDetailViewController.swift in Sources */,
 				9AFA085420A6DB8E00CFDF46 /* ViewController.swift in Sources */,
 				9AFA088B20A6FAE700CFDF46 /* AttractionMapViewController.swift in Sources */,
+				9A0FB52A20A80CDC00F108C7 /* MapViewController.swift in Sources */,
 				9AFA085220A6DB8E00CFDF46 /* AppDelegate.swift in Sources */,
+				9A31BEDA20A87924009B85DD /* DayPlansViewController.swift in Sources */,
 				9AFA088120A6F4EA00CFDF46 /* EmergencyViewController.swift in Sources */,
 				9AFA087E20A6EDD600CFDF46 /* HowItWorkViewController.swift in Sources */,
 				9AFA088620A6F9D200CFDF46 /* AttractionListViewController.swift in Sources */,

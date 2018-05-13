@@ -21,6 +21,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Set Root ViewController
         window = UIWindow(frame: UIScreen.main.bounds)
+        window?.backgroundColor = .white
         window?.rootViewController = BaseNavViewController(rootViewController: HomeViewController())
         window?.makeKeyAndVisible()
         
@@ -36,7 +37,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         //Config DataBase url
         config.fileURL = config.fileURL!.deletingLastPathComponent().appendingPathComponent("sit206.realm")
-        print(config.fileURL?.absoluteString)
         
        
         

@@ -56,8 +56,10 @@ extension HomeViewController {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         switch indexPath.row {
         case 0://Main
+            self.navigationController?.pushViewController(AttractionListViewController(), animated: true)
             print("Main")
         case 1://Day Plans
+            self.navigationController?.pushViewController(DayPlansViewController(), animated: true)
             print("Day")
         case 2:
             self.navigationController?.pushViewController(EmergencyViewController(), animated: true)
