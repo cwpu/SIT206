@@ -3,7 +3,7 @@
 //  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/12.
-//  Copyright © 2018年 cpwu. All rights reserved.
+//  Copyright © 2018年 cwpu. All rights reserved.
 //
 
 import UIKit
@@ -19,7 +19,7 @@ class HomeViewController: BaseTableViewController {
         "Developer Info"
         ]
     }()
-    
+    //this is used to set up the home story items
 
     override func viewDidLoad() {
         super.viewDidLoad()

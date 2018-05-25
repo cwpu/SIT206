@@ -3,7 +3,7 @@
 //  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/12.
-//  Copyright © 2018年 cpwu. All rights reserved.
+//  Copyright © 2018年 cwpu. All rights reserved.
 //
 
 import UIKit
@@ -13,16 +13,28 @@ class EmergencyViewController: BaseTableViewController {
     lazy var dataSource: [[String: String]] = {
        return [
         [
-            "name" : "Name1",
-            "phone" : "123456",
+            "name" : "Emergency Fire Police Ambulance",
+            "phone" : "000",
             ],
         [
-            "name" : "Name2",
-            "phone" : "234567",
+            "name" : "Emergency Services (SES)",
+            "phone" : "132 500",
+            ],
+        [
+            "name" : "Non Emergency Police",
+            "phone" : "131 444",
+            ],
+        [
+        "name" : "Poisons Information Centre [24 hours]",
+        "phone" : "131 126",
+        ],
+        [
+        "name" : "Accident Towing",
+        "phone" : "131 176",
         ]
         ]
     }()
-    
+    //this is used to provide data for contacts
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -75,4 +87,6 @@ extension EmergencyViewController {
         UIApplication.shared.open(URL(string: "tel://" + phoneNum)!, options: [:], completionHandler: nil)
         
     }
+    //this is used to setup the Contacts UI
+    
 }

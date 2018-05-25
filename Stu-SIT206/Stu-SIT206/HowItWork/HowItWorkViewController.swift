@@ -3,7 +3,7 @@
 //  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/12.
-//  Copyright © 2018年 cpwu. All rights reserved.
+//  Copyright © 2018年 cwpu. All rights reserved.
 //
 
 import UIKit
@@ -30,7 +30,8 @@ class HowItWorkViewController: BaseViewController,VGPlayerDelegate,VGPlayerViewD
         
         
         // Add Player
-        player.replaceVideo(URL(string: "https://www.jmjc.tech/public/home/poi.mp4")!)
+        //video uploaded to online storage mixtape.moe
+        player.replaceVideo(URL(string: "https://my.mixtape.moe/rrvovg.mp4")!)
         player.play()
         player.backgroundMode = .proceed
         player.delegate = self
@@ -47,7 +48,7 @@ class HowItWorkViewController: BaseViewController,VGPlayerDelegate,VGPlayerViewD
         // Add Desc
         let desc = UILabel()
         desc.numberOfLines = 0
-        desc.text = "This Is Test Video"
+        desc.text = "This is a demo video to show how does this app works"
         self.view.addSubview(desc)
         desc.snp.makeConstraints { (make) in
             make.left.equalTo(15)

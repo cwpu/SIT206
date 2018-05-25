@@ -3,7 +3,7 @@
 //  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/13.
-//  Copyright © 2018年 cpwu. All rights reserved.
+//  Copyright © 2018年 cwpu. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,7 @@ class DayPlansViewController: BaseTableViewController {
         let result = reaml.objects(AttractionModel.self).filter(p1)
         return result
     }()
-    
+    //this is used to add item to day plan
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -56,7 +56,7 @@ class DayPlansViewController: BaseTableViewController {
         self.dataSource = result
         self.tableView?.reloadData()
     }
-    
+    //this is used to get data for day plan
 }
 
 extension DayPlansViewController {
@@ -91,7 +91,7 @@ extension DayPlansViewController {
             self .present(alert, animated: true, completion: nil)
             
         }
-        
+        // //this is able to make the items that can be removed from day plan with alert
         
         return cell
         

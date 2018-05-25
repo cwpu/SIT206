@@ -3,7 +3,7 @@
 //  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/13.
-//  Copyright © 2018年 cpwu. All rights reserved.
+//  Copyright © 2018年 cwpu. All rights reserved.
 //
 
 import UIKit
@@ -13,7 +13,7 @@ class PlansTableViewCell: UITableViewCell {
     @IBOutlet weak var img: UIImageView!
     @IBOutlet weak var content: UILabel!
     @IBOutlet weak var `switch`: UISwitch!
-    
+    //this is used to connect with things in UI including Image, Label, Switch
     var itemDidBlock:((Bool) -> Void)?
     
     

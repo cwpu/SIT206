@@ -3,7 +3,7 @@
 //  Stu-SIT206
 //
 //  Created by Chin Wai Pun on 2018/5/13.
-//  Copyright © 2018年 cpwu. All rights reserved.
+//  Copyright © 2018年 cwpu. All rights reserved.
 //
 
 import UIKit
@@ -25,7 +25,7 @@ class MapViewController: BaseViewController {
     
     var mapView: MKMapView!
     
-    
+    //this is used to set up the ScrollView and mapview
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +46,7 @@ class MapViewController: BaseViewController {
         
         img.image = UIImage(named: model.image)
         
-        //Name
+        //this is used to show the Name
         let namel = UILabel()
         namel.text = "Name:"
         
@@ -67,7 +67,7 @@ class MapViewController: BaseViewController {
         }
         
         
-        //Type
+        //this is used to show the Type
         let typel = UILabel()
         typel.text = "Type:"
         
@@ -88,7 +88,7 @@ class MapViewController: BaseViewController {
         }
         
         
-        //Location
+        //this is used to show the phone
         let phonel = UILabel()
         phonel.text = "Call:"
         
@@ -124,7 +124,7 @@ class MapViewController: BaseViewController {
         
         
         
-        //Add To Day Plan
+        //this is used to show the add to day plan
         let dayplanl = UILabel()
         dayplanl.text = "Add To Day Plan"
         
@@ -147,7 +147,7 @@ class MapViewController: BaseViewController {
         
         
         
-        
+        //this is used to show the map
         
         self.mapView = MKMapView()
         self.bgScrollView.addSubview(mapView)
